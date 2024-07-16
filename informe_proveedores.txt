@@ -1,0 +1,31 @@
+    Id Nombre                                   Persona Contacto               Telefono        
+====================================================================================================
+    1 Exotic Liquids                           Charlotte Cooper               (171) 555-2222 
+    2 New Orleans Cajun Delights               Shelley Burke                  (100) 555-4822 
+    3 Grandma Kelly's Homestead                Regina Murphy                  (313) 555-5735 
+    4 Tokyo Traders                            Yoshi Nagase                   (03) 3555-5011 
+    5 Cooperativa de Quesos 'Las Cabras'       Antonio del Valle Saavedra     (98) 598 76 54 
+    6 Mayumi's                                 Mayumi Ohno                    (06) 431-7877  
+    7 Pavlova, Ltd.                            Ian Devling                    (03) 444-2343  
+    8 Specialty Biscuits, Ltd.                 Peter Wilson                   (161) 555-4448 
+    9 PB Knäckebröd AB                         Lars Peterson                  031-987 65 43  
+   10 Refrescos Americanas LTDA                Carlos Diaz                    (11) 555 4640  
+   11 Heli Süßwaren GmbH & Co. KG              Petra Winkler                  (010) 9984510  
+   12 Plutzer Lebensmittelgroßmärkte AG        Martin Bein                    (069) 992755   
+   13 Nord-Ost-Fisch Handelsgesellschaft mbH   Sven Petersen                  (04721) 8713   
+   14 Formaggi Fortini s.r.l.                  Elio Rossi                     (0544) 60323   
+   15 Norske Meierier                          Beate Vileid                   (0)2-953010    
+   16 Bigfoot Breweries                        Cheryl Saylor                  (503) 555-9931 
+   17 Svensk Sjöföda AB                        Michael Björn                  08-123 45 67   
+   18 Aux joyeux ecclésiastiques               Guylène Nodier                 (1) 03.83.00.68
+   19 New England Seafood Cannery              Robb Merchant                  (617) 555-3267 
+   20 Leka Trading                             Chandra Leka                   555-8787       
+   21 Lyngbysild                               Niels Petersen                 43844108       
+   22 Zaanse Snoepfabriek                      Dirk Luchte                    (12345) 1212   
+   23 Karkki Oy                                Anne Heikkonen                 (953) 10956    
+   24 G'day, Mate                              Wendy Mackenzie                (02) 555-5914  
+   25 Ma Maison                                Jean-Guy Lauzon                (514) 555-9022 
+   26 Pasta Buttini s.r.l.                     Giovanni Giudici               (089) 6547665  
+   27 Escargots Nouveaux                       Marie Delamare                 85.57.00.07    
+   28 Gai pâturage                             Eliane Noz                     38.76.98.06    
+   29 Forêts d'érables                         Chantal Goulet                 (514) 555-2955 
