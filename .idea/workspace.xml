@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94699bd8-0262-45f1-a32a-b8adae133058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EjerciciosSemana16Julio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rango_comisiones.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/networks/modelo/Proveedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/networks/modelo/RangoComisiones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/networks/persistencia/AccesoTablaProveedores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/networks/persistencia/AccesoTablaRangoComisiones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/networks/persistencia/Conexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/networks/presentacion/ConvertirCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/networks/presentacion/InformeProveedores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrada1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrada2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/networks/modelo/TiendaC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/networks/presentacion/LeerFicheroGrabar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/networks/presentacion/OrdenarFicheros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/networks/presentacion/clienteservidor/ClienteTienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/networks/presentacion/clienteservidor/ServidorTienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/networks/presentacion/robot/ClienteRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/networks/presentacion/robot/ServidorRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/networks/presentacion/ConvertirCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/networks/presentacion/ConvertirCSV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2jJmrJksZXeKGQyjBmfSyA1ctV3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,12 +43,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ClienteRobot.executor": "Run",
+    "Application.ClienteTienda.executor": "Run",
     "Application.ConvertirCSV.executor": "Run",
     "Application.InformeProveedores.executor": "Run",
+    "Application.LeerFicheroGrabar.executor": "Run",
+    "Application.OrdenarFicheros.executor": "Run",
+    "Application.ServidorRobot.executor": "Run",
+    "Application.ServidorTienda.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ggp20/OneDrive/Documents/Cursos/BBDD/Drivers",
+    "last_opened_file_path": "C:/Users/ggp20/Documents/Cursos2024/IFCT0609-CoreNetworks-2024/Proyectos/EjerciciosSemana16Julio/src/com/networks/presentacion",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -60,12 +62,39 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ggp20\Documents\Cursos2024\IFCT0609-CoreNetworks-2024\Proyectos\EjerciciosSemana16Julio\src\com\networks\presentacion" />
       <recent name="C:\Users\ggp20\Documents\Cursos2024\IFCT0609-CoreNetworks-2024\Proyectos\EjerciciosSemana16Julio\src\com\networks\persistencia" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConvertirCSV">
-    <configuration name="ConvertirCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.networks.presentacion.ConvertirCSV" />
+  <component name="RunManager" selected="Application.ClienteRobot">
+    <configuration name="ClienteRobot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.networks.presentacion.robot.ClienteRobot" />
+      <module name="EjerciciosSemana16Julio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.networks.presentacion.robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteTienda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.networks.presentacion.clienteservidor.ClienteTienda" />
+      <module name="EjerciciosSemana16Julio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.networks.presentacion.clienteservidor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdenarFicheros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.networks.presentacion.OrdenarFicheros" />
       <module name="EjerciciosSemana16Julio" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InformeProveedores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.networks.presentacion.InformeProveedores" />
+    <configuration name="ServidorRobot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.networks.presentacion.robot.ServidorRobot" />
       <module name="EjerciciosSemana16Julio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.networks.presentacion.*" />
+          <option name="PATTERN" value="com.networks.presentacion.robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServidorTienda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.networks.presentacion.clienteservidor.ServidorTienda" />
+      <module name="EjerciciosSemana16Julio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.networks.presentacion.clienteservidor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConvertirCSV" />
-        <item itemvalue="Application.InformeProveedores" />
+        <item itemvalue="Application.ClienteRobot" />
+        <item itemvalue="Application.ServidorRobot" />
+        <item itemvalue="Application.ClienteTienda" />
+        <item itemvalue="Application.ServidorTienda" />
+        <item itemvalue="Application.OrdenarFicheros" />
       </list>
     </recent_temporary>
   </component>

@@ -24,9 +24,7 @@ public class ConvertirCSV {
                 }
                 RangoComisiones rc1 = convierteAObjetoRango(linea);
                 atrc1.insertarRango(rc1);
-
             }
-
         } catch (FileNotFoundException e) {
             System.out.println(e.toString());
         } catch (IOException e) {
@@ -34,7 +32,6 @@ public class ConvertirCSV {
         } catch (SQLException e) {
             System.out.println(e.toString());
         }
-
     }
     public static RangoComisiones convierteAObjetoRango(String linea){
         String[]valores;
